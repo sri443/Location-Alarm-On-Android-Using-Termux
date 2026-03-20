@@ -1,5 +1,5 @@
 # Location-Based Alarm System Using Termux
-(Personal project to trigger alarm when close to travel destination (to avoid missing stops), coded in termux environment to use quickly without deployment).
+(Personal project to trigger alarm when near destination (to avoid missing stops), coded in termux environment to use quickly without deployment).
 
 A lightweight, terminal-driven location-aware alert system designed for Android environments using Termux.
 
