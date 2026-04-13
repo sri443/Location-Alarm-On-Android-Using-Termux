@@ -3,7 +3,7 @@ import time
 import json
 from geopy.distance import geodesic
 
-RINGTONE = os.path.expanduser("~/storage/downloads/chill.mp3")
+RINGTONE = os.path.expanduser("~/storage/downloads/your-ringtone.mp3")  #Replace the path with your own path
 
 # ==============================
 # GET CURRENT GPS LOCATION
