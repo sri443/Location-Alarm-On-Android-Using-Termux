@@ -81,6 +81,8 @@ cd Location-Alarm-On-Android-Using-Termux
 pip install -r requirements.txt
 ```
 
+---
+
 ## 🔊 Custom Ringtone Setup
 
 By default, the script expects a ringtone file path. You need to update this to match a valid audio file on your device.
