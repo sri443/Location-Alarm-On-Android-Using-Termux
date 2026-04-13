@@ -125,9 +125,9 @@ If the audio plays, you're good.
 
 ---
 
-## ❗ Troubleshooting
+### ❗ Troubleshooting
 
-### Audio not playing
+**Audio not playing**
 
 - Check file path is correct
 - Ensure file format is supported (`.mp3` recommended)
@@ -136,9 +136,7 @@ If the audio plays, you're good.
   ls /sdcard/Download/
   ```
 
----
-
-### Permission issues
+**Permission issues**
 
 Run:
 ```bash
@@ -147,9 +145,7 @@ termux-setup-storage
 
 Then restart Termux and try again.
 
----
-
-### Command not found (termux-media-player)
+**Command not found (termux-media-player)**
 
 Install required package:
 ```bash
@@ -158,9 +154,7 @@ pkg install termux-api
 
 Also ensure the **Termux:API app** is installed on your phone.
 
----
-
-### No sound even though command runs
+**No sound even though command runs**
 
 - Check phone volume
 - Make sure media volume is not muted
@@ -168,7 +162,7 @@ Also ensure the **Termux:API app** is installed on your phone.
 
 ---
 
-## ⚠️ Notes
+### ⚠️ Notes
 
 - Absolute file paths are required (relative paths may fail)
 - Keep the file in internal storage (not restricted app folders)
@@ -200,7 +194,7 @@ python main.py
 
 ---
 
-## ❗ Troubleshooting
+### ❗ Troubleshooting
 
 - **No GPS data**
   - Ensure location is enabled on your phone
@@ -218,12 +212,14 @@ python main.py
 
 ---
 
-## ⚠️ Notes
+### ⚠️ Notes
 
 - Works only on Android (Termux environment)
 - GPS accuracy depends on device and surroundings
 - Uses a wakelock to keep running even when the screen is off
 - Not a true background service — may stop if Termux is closed or restricted by Android
+
+---
 
 ## 📂 Project Structure
 
